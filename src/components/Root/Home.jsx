@@ -1,7 +1,11 @@
+import Hero_image from "./home-components/Hero_image";
+
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <div>
+      <Hero_image />
+    </div>
+  );
 }
 
-export default Home
+export default Home;
