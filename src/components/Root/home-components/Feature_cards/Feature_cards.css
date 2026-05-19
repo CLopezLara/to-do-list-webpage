@@ -1,0 +1,33 @@
+.feature-cards-section {
+  background-color: white;
+  padding: 5rem 0;
+}
+.feature-header {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  max-width: 35rem;
+  margin: 0 auto;
+}
+.feature-title {
+  color: black;
+  font-size: 3rem;
+  line-height: 1.4;
+  margin-bottom: 0;
+}
+.feature-description {
+  color: rgba(0, 0, 0, 0.651);
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+.feature-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.1rem, 1fr));
+  justify-content: center;
+  grid-gap: 2rem;
+  padding: 3rem;
+  margin: 0 auto;
+  max-width: 76rem;
+}

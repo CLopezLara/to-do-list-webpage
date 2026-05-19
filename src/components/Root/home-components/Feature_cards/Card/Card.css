@@ -1,0 +1,45 @@
+.card-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  box-shadow: 0 0 0.1rem 0.05rem rgba(0, 0, 0, 0.11);
+  transition: box-shadow 0.2s ease;
+}
+.card-container:hover {
+  box-shadow: 0.2rem 0.2rem 0.5rem 0.1rem rgba(0, 0, 0, 0.096);
+}
+
+.card-icon {
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  padding: 0.7rem;
+  color: white;
+}
+.card-title {
+  color: black;
+}
+.card-description {
+  color: gray;
+}
+.icon-blue {
+  background-color: rgb(7, 90, 245);
+}
+.icon-purple {
+  background-color: rgb(153, 27, 236);
+}
+.icon-orange {
+  background-color: rgb(255, 136, 0);
+}
+.icon-green {
+  background-color: rgb(16, 192, 16);
+}
+.icon-yellow {
+  background-color: rgb(255, 208, 0);
+}
+.icon-red {
+  background-color: red;
+}
