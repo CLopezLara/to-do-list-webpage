@@ -1,4 +1,4 @@
-import Hero_image from "./home-components/Hero_image";
+import Hero_image from "./home-components/Hero_image/Hero_image";
 
 function Home() {
   return (
