@@ -1,3 +1,11 @@
+.app-container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 .app-header {
   width: 100%;
+}
+.app-main-content{
+  flex: 1;
 }
