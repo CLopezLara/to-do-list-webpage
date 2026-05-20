@@ -3,7 +3,6 @@
   max-width: 25rem;
   border-radius: 1rem;
   border: 0.1rem solid rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(1rem);
   padding: 1rem;
 }
 .review-rating {
@@ -27,7 +26,6 @@
   color: rgba(255, 255, 255, 0.9);
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #4799e6;
   border-radius: 50%;
   font-weight: 700;
   display: flex;
@@ -45,4 +43,13 @@
 .review-role {
   color: #6ee09d;
   font-size: 0.9rem;
+}
+.review-blue {
+  background-color: #4799e6;
+}
+.review-yellow {
+  background-color: #b6ad5a;
+}
+.review-red {
+  background-color: #d42929;
 }

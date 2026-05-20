@@ -6,6 +6,7 @@ export default function ReviewCard({
   initials,
   reviewer,
   role,
+  color,
 }) {
   return (
     <div className="review-card-container">
@@ -22,7 +23,7 @@ export default function ReviewCard({
         <i>{reviewContent}</i>
       </p>
       <div className="review-card-footer">
-        <p className="review-initials">{initials}</p>
+        <p className={`review-initials ${color}`}>{initials}</p>
         <div className="reviewer-info">
           <p className="reviewer">{reviewer}</p>
           <p className="review-role">{role}</p>

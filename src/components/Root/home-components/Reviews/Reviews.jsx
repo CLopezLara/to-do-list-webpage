@@ -19,6 +19,7 @@ function Reviews() {
           initials="SM"
           reviewer="Sarah Mitchell"
           role="Gerente de producto"
+          color="review-blue"
         />
         <ReviewCard
           rate={4}
@@ -26,6 +27,7 @@ function Reviews() {
           initials="JC"
           reviewer="James Chen"
           role="Ingeniero de software"
+          color="review-yellow"
         />
         <ReviewCard
           rate={5}
@@ -33,6 +35,7 @@ function Reviews() {
           initials="EL"
           reviewer="Emily Lopez"
           role="Emprendedora"
+          color="review-red"
         />
       </div>
     </section>
