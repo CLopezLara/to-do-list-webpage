@@ -1,0 +1,48 @@
+.review-card-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  max-width: 25rem;
+  border-radius: 1rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(1rem);
+  padding: 1rem;
+}
+.review-rating {
+  display: flex;
+  padding: 1rem;
+  color: rgb(226, 195, 21);
+  gap: 0.4rem;
+  font-size: 1.3rem;
+}
+.review-content {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: left;
+  margin-bottom: 1.5rem;
+  padding: 0 1rem;
+}
+.review-card-footer {
+  display: flex;
+  gap: 3rem;
+}
+.review-initials {
+  color: rgba(255, 255, 255, 0.9);
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #4799e6;
+  border-radius: 50%;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reviewer-info {
+  text-align: left;
+}
+.reviewer {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  font-weight: 600;
+}
+.review-role {
+  color: #6ee09d;
+  font-size: 0.9rem;
+}

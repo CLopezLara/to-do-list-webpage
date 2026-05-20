@@ -1,0 +1,30 @@
+.review-section {
+  background: linear-gradient(to bottom right, #2563eb, #7c3aed);
+  min-height: 28rem;
+  padding: 4rem 1rem;
+}
+.reviews-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+  max-width: 50rem;
+}
+.reviews-header-title {
+  font-size: 3rem;
+  color: white;
+}
+.reviews-header-description {
+  color: rgba(255, 255, 255, 0.692);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.reviews {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
