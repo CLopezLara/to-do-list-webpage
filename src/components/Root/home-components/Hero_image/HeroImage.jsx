@@ -1,11 +1,11 @@
 import { NavLink } from "react-router";
-import "./Hero_image.css";
+import "./HeroImage.css";
 import { FaArrowRight } from "react-icons/fa";
-function Hero_image() {
+function HeroImage() {
   return (
     <section className="hero-image-background">
-      <section className="hero-image-container">
-        <section className="hero-image-left-section">
+      <div className="hero-image-container">
+        <div className="hero-image-left-section">
           <header className="hero-image-text">
             <h1 className="hero-image-title">
               Organiza Tu Vida,
@@ -20,9 +20,9 @@ function Hero_image() {
           <NavLink className="hero-image-button">
             Empezar ahora <FaArrowRight />
           </NavLink>
-        </section>
-        <section className="hero-image-right-section">
-          <section className="hero-image-right-background">
+        </div>
+        <div className="hero-image-right-section">
+          <div className="hero-image-right-background">
             <p className="hero-image-floating-card">
               Usuarios activos
               <span className="hero-image-floating-card-value right-card">
@@ -35,49 +35,49 @@ function Hero_image() {
             </p>
             <ul className="hero-image-list">
               <li className="hero-image-list-option">
-                <section className="list-option-left-section">
-                  <h2 className="hero-image-list-option-title">
+                <div className="list-option-left-section">
+                  <h3 className="hero-image-list-option-title">
                     Revisar propuesta de proyecto
-                  </h2>
+                  </h3>
                   <p className="hero-image-list-option-description">
                     Hoy, 2:00 PM
                   </p>
-                </section>
+                </div>
                 <p className="hero-image-list-option-priority high-priority">
                   Alta
                 </p>
               </li>
               <li className="hero-image-list-option">
-                <section className="list-option-left-section">
-                  <h2 className="hero-image-list-option-title">
+                <div className="list-option-left-section">
+                  <h3 className="hero-image-list-option-title">
                     Reunion de equipo de trabajo
-                  </h2>
+                  </h3>
                   <p className="hero-image-list-option-description">
                     Hoy, 10:00 AM
                   </p>
-                </section>
+                </div>
                 <p className="hero-image-list-option-priority medium-priority">
                   Media
                 </p>
               </li>
 
               <li className="hero-image-list-option">
-                <section className="list-option-left-section">
-                  <h2 className="hero-image-list-option-title">
+                <div className="list-option-left-section">
+                  <h3 className="hero-image-list-option-title">
                     Actualizar documentacion
-                  </h2>
+                  </h3>
                   <p className="hero-image-list-option-description">Mañana</p>
-                </section>
+                </div>
                 <p className="hero-image-list-option-priority low-priority">
                   Baja
                 </p>
               </li>
             </ul>
-          </section>
-        </section>
-      </section>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
 
-export default Hero_image;
+export default HeroImage;
