@@ -1,4 +1,4 @@
-import Feature_cards from "./home-components/Feature_cards/Feature_cards";
+import FeatureCards from "./home-components/Feature_cards/FeatureCards";
 import HeroImage from "./home-components/Hero_image/HeroImage";
 import ProcessSection from "./home-components/Process_section/ProcessSection";
 
@@ -9,7 +9,7 @@ function Home() {
         <HeroImage />
       </section>
       <section>
-        <Feature_cards />
+        <FeatureCards />
       </section>
       <section>
         <ProcessSection />

@@ -1,15 +1,15 @@
 import Card from "./Card/Card";
-import "./Feature_cards.css";
+import "./FeatureCards.css";
 import { FaRegCalendarAlt } from "react-icons/fa";
 import { BsPersonWorkspace } from "react-icons/bs";
 import { CiBellOn } from "react-icons/ci";
 import { GoGraph } from "react-icons/go";
 import { PiLightningLight } from "react-icons/pi";
 import { IoShieldOutline } from "react-icons/io5";
-function Feature_cards() {
+function FeatureCards() {
   return (
     <section className="feature-cards-section">
-      <section className="feature-header">
+      <div className="feature-header">
         <h1 className="feature-title">
           Todo lo que necesitas para mantenerte organizado
         </h1>
@@ -17,8 +17,8 @@ function Feature_cards() {
           Poderosas herramientas diseñadas para ayudarte a manejar tareas,
           colaborar con equipos y aumentar la productividad.
         </p>
-      </section>
-      <section className="feature-cards-container">
+      </div>
+      <div className="feature-cards-container">
         <Card
           title="Calendario inteligente"
           icon={<FaRegCalendarAlt />}
@@ -56,9 +56,9 @@ function Feature_cards() {
           description="Tus datos estan protegidos con nosotros. Nos tomamos tu privacidad seriamente y nunca compartiremos tu informacion."
           iconColor="icon-red"
         />
-      </section>
+      </div>
     </section>
   );
 }
 
-export default Feature_cards;
+export default FeatureCards;
