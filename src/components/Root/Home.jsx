@@ -1,3 +1,4 @@
+import CtaSection from "./home-components/CTA_section/CtaSection";
 import FeatureCards from "./home-components/Feature_cards/FeatureCards";
 import HeroImage from "./home-components/Hero_image/HeroImage";
 import ProcessSection from "./home-components/Process_section/ProcessSection";
@@ -17,6 +18,9 @@ function Home() {
       </section>
       <section>
         <Reviews />
+      </section>
+      <section>
+        <CtaSection />
       </section>
     </section>
   );
