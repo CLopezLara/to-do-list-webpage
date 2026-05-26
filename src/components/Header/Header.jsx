@@ -29,14 +29,19 @@ function Header() {
               Tareas
             </NavLink>
           </li>
+
           <li className="navbar-option">
-            <NavLink to="/tablero" className="nav-link" onClick={openMenu}>
-              Tablero
+            <NavLink to="auth/login" className="nav-link" onClick={openMenu}>
+              Iniciar sesión
             </NavLink>
           </li>
           <li className="navbar-option">
-            <NavLink to="/login" className="nav-link" onClick={openMenu}>
-              Iniciar sesión
+            <NavLink
+              to="/auth/register"
+              className="nav-link"
+              onClick={openMenu}
+            >
+              Registrarse
             </NavLink>
           </li>
         </ul>

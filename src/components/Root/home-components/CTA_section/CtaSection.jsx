@@ -12,7 +12,9 @@ function CtaSection() {
             efectivamente con ToDoList.
           </p>
         </header>
-        <NavLink className="cta-button">Inicia ahora</NavLink>
+        <NavLink to="/auth/login" className="cta-button">
+          Inicia ahora
+        </NavLink>
       </div>
     </section>
   );

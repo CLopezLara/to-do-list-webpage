@@ -1,0 +1,130 @@
+.login-container {
+  background: linear-gradient(to bottom right, #2563eb, #1d4ed8, #7c3aed);
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.login-header {
+  margin-top: 5rem;
+}
+.login-header > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-logo {
+  height: 6rem;
+}
+.login-brand {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.login-description {
+  color: rgba(255, 255, 255, 0.897);
+}
+.login-form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 22rem;
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 20rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.form-title {
+  color: black;
+  align-self: flex-start;
+  font-size: 1.4rem;
+}
+.login-form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  align-items: center;
+}
+.form-input {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: white;
+  border: 0.1rem solid black;
+  border-radius: 0.2rem;
+  min-height: 2.5rem;
+  color: black;
+}
+.form-label {
+  align-self: flex-start;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.form-button {
+  width: 100%;
+  min-height: 3rem;
+  border-radius: 0.5rem;
+  background-color: rgb(40, 70, 238);
+  cursor: pointer;
+  font-size: 1rem;
+  border: none;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+.form-button:hover {
+  background-color: rgb(13, 53, 184);
+}
+.login-options {
+  border-bottom: 0.1rem solid black;
+  color: red;
+}
+.form-divisor-line {
+  position: relative;
+  border-bottom: 2px solid #d1d5db;
+  padding: 2rem 1rem 1rem;
+  background: white;
+  margin-bottom: 1.5rem;
+  box-sizing: border-box;
+}
+
+.divisor-label {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background: white;
+  padding: 0 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #374151;
+}
+.google-login {
+  color: rgb(0, 0, 0);
+  border: 0.1rem solid rgba(0, 0, 0, 0.274);
+  width: 100%;
+  background-color: white;
+  min-height: 3rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.google-login:hover {
+  background-color: rgb(228, 228, 228);
+}
+@media (max-width: 600px) {
+  .login-form {
+    box-sizing: border-box;
+  }
+}
