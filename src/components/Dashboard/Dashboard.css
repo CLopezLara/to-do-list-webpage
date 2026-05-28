@@ -1,0 +1,24 @@
+.dashboard-container {
+  background-color: white;
+  min-height: 100dvh;
+  padding: 2rem;
+  margin: 0 17.6rem;
+}
+.dashboard-header {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: 650;
+  color: black;
+}
+.dashboard-description {
+  color: #4a5565;
+}
+.info-cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}

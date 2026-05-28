@@ -17,7 +17,7 @@ function HeroImage() {
               todos.
             </p>
           </header>
-          <NavLink to="/auth/login" className="hero-image-button">
+          <NavLink to="/login" className="hero-image-button">
             Empezar ahora <FaArrowRight />
           </NavLink>
         </div>

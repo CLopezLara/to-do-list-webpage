@@ -31,7 +31,7 @@ function Header() {
           </li>
 
           <li className="navbar-option">
-            <NavLink to="auth/login" className="nav-link" onClick={openMenu}>
+            <NavLink to="/login" className="nav-link" onClick={openMenu}>
               Iniciar sesión
             </NavLink>
           </li>
